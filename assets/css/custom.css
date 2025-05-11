@@ -1,0 +1,43 @@
+root {
+  --redish: #ce1212;
+}
+
+.red {
+  color: var(--redish);
+}
+
+.brands {
+  background: #f6f7ff;
+  padding: 15px 0;
+  text-align: center;
+}
+.brands-head {
+  font-weight: 700;
+}
+
+.brands img {
+  max-width: 45%;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+}
+
+.brands img:hover {
+  transform: scale(1.35);
+}
+.addplus::after{
+  content: '+';
+}
+
+@media (max-width: 768px) {
+  .brands img {
+    max-width: 40%;
+  }
+}
+.shadowss{
+  box-shadow: 4px 5px 8px #333;
+}
+
+.borderradius{
+  border-radius: 12px;
+}
